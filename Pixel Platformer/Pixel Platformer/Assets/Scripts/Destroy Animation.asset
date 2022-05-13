@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Destroy Animation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":156.75,"y":21.07146},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-222.0,"y":-86.0},"guid":"953f38f0-246a-4de7-8ce7-5a06a276558c","$version":"A","$type":"Unity.VisualScripting.BoltAnimationEvent","$id":"9"},{"ignoreCase":false,"options":["Destroy"],"defaultValues":{},"position":{"x":42.0,"y":-106.0},"guid":"0842a15b-2a48-4b38-bdb5-835c94da48a0","$version":"A","$type":"Unity.VisualScripting.SwitchOnString","$id":"11"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":368.0,"y":-88.0},"guid":"9e81c9e4-a643-47f3-8c26-29442ca5554b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"defaultValues":{},"position":{"x":214.0,"y":68.0},"guid":"cdaaab7b-9bc1-43e2-995f-010dcbb5653a","$version":"A","$type":"Unity.VisualScripting.This","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"23f4b966-96a6-4758-b8a0-589f5b59323f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"%Destroy","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"5fcbf3cf-bb13-40bd-9b12-1cf8d118748c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"stringParameter","destinationUnit":{"$ref":"11"},"destinationKey":"selector","guid":"d13b54bb-58e6-41e9-b89c-5dcd0cc1f656","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"self","destinationUnit":{"$ref":"14"},"destinationKey":"%obj","guid":"167ef547-66a5-416a-b819-9200f8eb53ea","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
